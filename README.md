@@ -1,7 +1,6 @@
 ## E-commerce Challenge
 
 Doing list
-- Dar estilos a menu
 
 
 to do list
@@ -10,3 +9,4 @@ to do list
 
 Finished
 - descargando imagenes de figma
+- Dar estilos a menu : dar propiedad Flex
