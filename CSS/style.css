@@ -116,3 +116,34 @@ section.seccion-uno{
     padding: 16px;
     margin-top: 16px;
 }
+
+.seccion-uno--titleLink{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+
+.seccion-uno h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-text);
+    display: inline;
+}
+
+.seccion-uno a{
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-weight:  700;
+    text-decoration: none;
+
+}
+
+.seccion-verTodo{
+    width: 10.7px;
+    height: 10.7px;
+    display: inline-block;
+    background-image: url(/assets/arrowVector.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
