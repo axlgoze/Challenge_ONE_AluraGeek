@@ -117,7 +117,7 @@ section.seccion-uno{
     margin-top: 16px;
 }
 
-.seccion-uno--titleLink{
+.seccion-n--titleLink{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,7 +125,7 @@ section.seccion-uno{
     margin-bottom: 16px;
 }
 
-.seccion-uno h2{
+.seccion-n--title{
     font-size: 2.2rem;
     font-weight: 700;
     color: var(--color-text);
@@ -137,7 +137,6 @@ section.seccion-uno{
     color: var(--color-primary);
     font-weight:  700;
     text-decoration: none;
-
 }
 
 .seccion-verTodo{
@@ -174,3 +173,36 @@ section.seccion-uno{
     font-weight: 700;
     color: var(--color-text);
 }
+
+/* section number two */
+section.seccion-dos{
+    border: solid 1px firebrick;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.seccion-dos a{
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-weight:  700;
+    text-decoration: none;
+}
+
+section.seccion-tres{
+    border: solid 1px firebrick;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.seccion-tres a{
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-weight:  700;
+    text-decoration: none;
+}
+
+
