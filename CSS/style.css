@@ -120,7 +120,9 @@ section.seccion-uno{
 .seccion-uno--titleLink{
     display: flex;
     justify-content: space-between;
-    vertical-align: bottom;
+    align-items: center;
+    /* border: solid darkblue 1px; */
+    margin-bottom: 16px;
 }
 
 .seccion-uno h2{
@@ -146,4 +148,29 @@ section.seccion-uno{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.seccion--productos{
+    width: 100%;
+    border: solid rgb(9, 255, 0) 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0 auto;
+    justify-content: space-between;
+}
+
+.seccion-productos--articulo{
+    line-height: 1.4;
+}
+
+.product-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.product-price{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-text);
 }
