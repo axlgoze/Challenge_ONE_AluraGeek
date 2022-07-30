@@ -28,14 +28,33 @@ body{
 }
 
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 40.02px;
+    height: 29.17px;
     display: inline-block;
-    background-image: url(/assets/brand/logo120.png);
+    background-image: url(/assets/brand/ControlLogo.png);
     background-size: cover;
     background-position: center;
     /* don't repeat the image if it is smaller */
     background-repeat: no-repeat;
+}
+
+.isotipo{
+    position: relative;
+    left: -10px;
+}
+
+.isotipo--st{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: var(--color-primary);
+}
+
+.isotipo--nd{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: var(--color-text);
 }
 
 .search{
@@ -210,4 +229,6 @@ section.seccion-tres{
     text-decoration: none;
 }
 
-
+footer{
+    border: solid firebrick 1px;
+}
