@@ -1,7 +1,7 @@
 ## E-commerce Challenge
 
 Doing list
-- finish to style other products sections
+- styling footer section
 
 to do list
 - Crear sitio responsive (moibile first)
