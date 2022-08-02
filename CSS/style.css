@@ -230,7 +230,7 @@ section.seccion-tres{
 }
 
 footer{
-    border: solid firebrick 1px;
+    /* border: solid firebrick 1px; */
     background-color: var(--color-secondary);
     padding: 31px 0;
 }
@@ -313,3 +313,19 @@ section.formulario{
 .espaciado{
     letter-spacing: 1px;
 }
+
+section.devInfo{
+    /* border: solid 2px darkcyan; */
+    width: 100%;
+    height: 102px;
+    padding: 32px;
+    background: #ffffff;
+}
+
+.devInfo h3, p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-text);
+}
+
