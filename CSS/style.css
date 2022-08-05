@@ -405,5 +405,34 @@ section.devInfo{
     .header-promotion{
         top: 270px;
     }
+
+    footer{
+        border: solid 1px darkblue;
+        width: 100%;
+        height: 364px;
+        display: flex;
+        padding: 40px;
+    }
+
+    .contacto{
+        width: 45%;
+        margin-right: 27px;
+    }
+    
+    .formulario{
+        width: 55%;
+    }
+
+    .contacto ul{
+        padding-top: 9px;
+    }
+
+    .contacto ul li{
+        text-align: left;
+    }
+
+    .formulario{
+        /* margin-left: 50px; */
+    }
 }
 
