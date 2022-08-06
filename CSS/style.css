@@ -21,7 +21,7 @@ body{
 
 
 .menu{
-    border:  solid firebrick;
+    /* border:  solid firebrick; */
     min-width: 360px;
     max-width: 479px;
     margin: 0 auto;
@@ -39,8 +39,8 @@ body{
 }
 
 .logo{
-    width: 40.02px;
-    height: 29.17px;
+    width: 22.74px;
+    height: 16.33px;
     display: inline-block;
     background-image: url(/assets/brand/ControlLogo.png);
     background-size: cover;
@@ -57,14 +57,14 @@ body{
 .isotipo--st{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: var(--color-primary);
 }
 
 .isotipo--nd{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: var(--color-text);
 }
 
@@ -94,11 +94,11 @@ body{
     background-position: center;
     /* don't repeat the image if it is smaller */
     background-repeat: no-repeat;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .menu-button{
-    width: 133px;
+    width: 111px;
     height: 4rem;
     padding: 12px, 16px, 12px, 16px;
     border-radius: 0;
