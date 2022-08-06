@@ -41,7 +41,7 @@ body{
 .logo{
     width: 22.74px;
     height: 16.33px;
-    display: inline-block;
+    /* display: inline-block; */
     background-image: url(/assets/brand/ControlLogo.png);
     background-size: cover;
     background-position: center;
