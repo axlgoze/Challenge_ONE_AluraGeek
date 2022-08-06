@@ -42,7 +42,7 @@ body{
     width: 22.74px;
     height: 16.33px;
     display: inline-block;
-    background-image: url(/assets/brand/ControlLogo.png);
+    background-image: url(assets/brand/ControlLogo.png);
     background-size: cover;
     background-position: center;
     /* don't repeat the image if it is smaller */
@@ -89,7 +89,7 @@ body{
     width: 16.5px;
     height: 16.5px;
     display: inline-block;
-    background-image: url(/assets/brand/search2.png);
+    background-image: url(assets/brand/search2.png);
     background-size: cover;
     background-position: center;
     /* don't repeat the image if it is smaller */
@@ -210,7 +210,7 @@ section.seccion-uno{
     width: 10.7px;
     height: 10.7px;
     display: inline-block;
-    background-image: url(/assets/arrowVector.png);
+    background-image: url(assets/arrowVector.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
