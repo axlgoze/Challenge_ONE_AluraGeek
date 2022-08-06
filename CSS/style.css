@@ -432,8 +432,16 @@ section.devInfo{
         text-align: left;
     }
 
-    .formulario{
-        /* margin-left: 50px; */
+    .menu-input--search{
+        display: inline-flex;
+        visibility: visible;
+        width: 272px;
+        height: 33px;
+        border-radius: 9px;
+        border: none;
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        padding: 8px;
     }
 }
 
