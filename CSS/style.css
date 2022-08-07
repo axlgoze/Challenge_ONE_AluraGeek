@@ -368,15 +368,16 @@ section.devInfo{
 
 /* breakpoints */
 
-/* tableta */
+/* tablet-portrait: min:768px - max:1023px; */
 
-@media (min-width: 576px) and (max-width: 767px) {
-    
-    .seccion-uno, .seccion-dos, .seccion-tres, .footer-logo{
-        /* min-width: 365px; */
-        max-width: 766px;
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header, footer, .menu, .devInfo, .seccion-uno, .seccion-dos, .seccion-tres, .footer-logo{
+        min-width: 768px;
+        max-width: 1024px;
         margin: 0 auto;
     }
+
 
     .menu{
         border:  solid rgb(34, 178, 87);
@@ -430,7 +431,7 @@ section.devInfo{
     }
 
     .contacto ul{
-        padding-top: 9px;
+        padding-top: 19px;
     }
 
     .contacto ul li{
