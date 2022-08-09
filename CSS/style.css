@@ -98,6 +98,10 @@ body{
     /* margin-left: 10px; */
 }
 
+.search:hover{
+    cursor: pointer;
+}
+
 .menu-button{
     width: 111px;
     height: 4rem;
@@ -106,6 +110,12 @@ body{
     border: solid var(--color-primary) 1px;
     background-color: white;
     color: var(--color-primary);
+}
+
+.menu-button:hover{
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: white;
 }
 
 header{
@@ -176,6 +186,12 @@ header, footer, .devInfo, .seccion-uno, .seccion-dos, .seccion-tres, .footer-log
     font-size: 1.4rem;
 }
 
+.header-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-primary);
+}
+
 
 section.seccion-uno{
     /* border: solid 1px firebrick; */
@@ -224,6 +240,10 @@ section.seccion-uno{
     flex-wrap: wrap;
     margin:  0 auto;
     justify-content: space-between;
+}
+
+.seccion--productos img{
+    cursor: pointer;
 }
 
 .seccion-productos--articulo{
@@ -303,6 +323,12 @@ footer{
     color: var(--color-text);
 }
 
+.contacto ul > li:hover {
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 1.7rem;
+}
+
 section.formulario{
     width: 100%;
     height: auto;
@@ -364,6 +390,10 @@ section.devInfo{
     font-weight: 500;
     text-align: center;
     color: var(--color-text);
+}
+
+.devInfo a{
+    text-decoration: none;
 }
 
 /* breakpoints */
