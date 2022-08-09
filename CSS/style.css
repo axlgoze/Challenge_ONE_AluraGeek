@@ -485,6 +485,15 @@ section.devInfo{
         position: absolute;
         right: 320px;
     }
+
+    .logo{
+        width: 40px;
+        height: 30px;
+    }
+
+    .isotipo--st, .isotipo--nd{
+        font-size: 2.8rem;
+    }
 }
 
 /* desktop: min:1024px */
