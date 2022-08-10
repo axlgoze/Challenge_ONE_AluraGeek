@@ -63,5 +63,41 @@ header{
 .header-button:hover{
     cursor: pointer;
     background-color: white;
-    color: var(--color-primary);
+    color: var(--color-primary);   
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+/* breakpoint */
+
+/* mobile-portrait: min:360px - max:768px; */
+
+@media (min-width: 360px) and (max-width: 768px){
+
+    header, .login{
+        width: 100%;
+        height: 280px;
+    }
+
+    .login input, button{
+        width: 275px;
+        height: 41px;
+        margin-top: 20px;
+        padding: 12px;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .header-button{
+        width: 275px;
+        height: 41px;
+        font-size: 1.4rem;
+    }
+
+    .logo:hover{
+        cursor: pointer;
+    }
+    
 }
