@@ -7,3 +7,7 @@ function cambioLogin(){
 function cambioHome(){
     location.href="./index.html"
 }
+
+function addProduct(){
+    location.href="./agregaProducto.html"
+}

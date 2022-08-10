@@ -1,0 +1,139 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-searchContainer{
+    align-items: center;,
+}
+.menu-input--search{
+    display: inline-block;
+}
+
+.search{
+    position: relative;
+    right: 25px;
+    top: 3px;
+}
+
+header{
+    /* border: solid forestgreen 1px; */
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 72px 150px 22px 152px;
+    
+}
+
+.header-productos{
+    /* border: solid fuchsia 1px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-productos p{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.header-button{
+    width: 163px;
+    height: 51px;
+    padding: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.seccion-allProducts{
+    background-color: #e5e5e5;
+}
+
+section.seccion-uno {
+    margin-top: 0;
+}
+
+.seccion-productos--articulo {
+
+}
+
+.product-edit{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 44px;
+    padding-right: 12.7px;
+}
+
+.product-edit--trash{
+    /* background-color: chartreuse; */
+    width: 14px;
+    height: 18px;
+    display: inline-block;
+    background-image: url("../assets/brand/trash.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-edit--pencil{
+    /* background-color: chartreuse; */
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-image: url("../assets/brand/pencil.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+}
+
+.product-edit--trash:hover{
+    cursor: pointer;
+    width: 16px;
+    height: 20px;
+}
+
+.product-edit--pencil:hover{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+/* breakpoint */
+
+/* mobile-portrait: min:360px - max:768px; */
+/* 
+@media (min-width: 360px) and (max-width: 768px){
+
+    header, .login{
+        width: 100%;
+        height: 280px;
+    }
+
+    .login input, button{
+        width: 275px;
+        height: 41px;
+        margin-top: 20px;
+        padding: 12px;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .header-button{
+        width: 275px;
+        height: 41px;
+        font-size: 1.4rem;
+    }
+
+    .logo:hover{
+        cursor: pointer;
+    }
+    
+} */

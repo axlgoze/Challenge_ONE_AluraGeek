@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/products.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>AluraGeek-Products</title>
+</head>
+<body>
+    <section class="menu">
+        <div class="menu-imagotipo">
+            <span class="logo" onclick="cambioHome()"></span><p class="isotipo"><span class="isotipo--st">Alura</span><span class="isotipo--nd">Geek</span></p>
+        </div>
+        <div class="menu-searchContainer">
+            <input type="text" class="menu-input--search" placeholder="¿Qué estas buscando?"><span class="search"></span>
+        </div>
+    </section>
+
+    <header>
+        <div class="header-productos">
+            <p>Todos los productos</p>
+            <button class="header-button" onclick="addProduct()">Agregar producto</button>
+        </div>
+    </header>
+
+    <section class="seccion-allProducts">
+        <section class="seccion-uno">
+            
+            <div class="seccion--productos">
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/stormcup.png" alt="Taza de Stormtrooper">
+                    <h3 class="product-title">Taza Stormtrooper</h3>
+                    <p class="product-price">USD $70 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/legoDarth.png" alt="Lego Darth Vader">
+                    <h3 class="product-title">Lego Darth Vader</h3>
+                    <p class="product-price">USD $200 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/yoda.png" alt="Yoda Toy">
+                    <h3 class="product-title">Muñeco Yoda</h3>
+                    <p class="product-price">USD $90 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/stormtrooper.png" alt="Stormtrooper">
+                    <h3 class="product-title">Stormtrooper</h3>
+                    <p class="product-price">USD $170 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/ben.png" alt="Kylo Ren" width="156" height="174">
+                    <h3 class="product-title">Figura de Acción</h3>
+                    <p class="product-price">USD $40 </p>
+                    <p>#111111</p>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-dos">
+            
+            <div class="seccion--productos">
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/xboxcontrol.png" alt="Control Xbox">
+                    <h3 class="product-title">Control Xbox</h3>
+                    <p class="product-price">USD $40 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/psfive.png" alt="Consola de videojuegos sony">
+                    <h3 class="product-title">Consola Sony</h3>
+                    <p class="product-price">USD $500 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/nintendoSys.png" alt="Consola de videojuegos nintendo clásico">
+                    <h3 class="product-title">Consola Nintendo</h3>
+                    <p class="product-price">USD $250 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/switch.png" alt="Controles para Consola de videojuegos nintendo switch">
+                    <h3 class="product-title">Controles Switch.</h3>
+                    <p class="product-price">USD $60 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/gameboy.png" alt="Consola portatil" width="156" height="174">
+                    <h3 class="product-title">Game Boy Color</h3>
+                    <p class="product-price">USD $99 </p>
+                    <p>#111111</p>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-tres">
+            
+            <div class="seccion--productos">
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/atari.png" alt="Atari T-shirt">
+                    <h3 class="product-title">Playera Atari</h3>
+                    <p class="product-price">USD $23 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/snes.png" alt="SNES T-shirt">
+                    <h3 class="product-title">Camiseta SNES</h3>
+                    <p class="product-price">USD $27 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/sonicToy.png" alt="Sonic Toy">
+                    <h3 class="product-title">Figura de Sonic</h3>
+                    <p class="product-price">USD $50 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/420.png" alt="Reloj 420">
+                    <h3 class="product-title">Reloj 420</h3>
+                    <p class="product-price">USD $16 </p>
+                    <p>#111111</p>
+                </div>
+                <div class="seccion-productos--articulo">
+                    <div class="product-edit">
+                        <span class="product-edit--trash"></span><span class="product-edit--pencil"></span>
+                    </div>
+                    <img src="assets/products/pikachuTeddy.png" alt="Giant Pikachu" width="156" height="174">
+                    <h3 class="product-title">Pikachu Teddy</h3>
+                    <p class="product-price">USD $130 </p>
+                    <p>#111111</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <footer>
+        <section class="contacto">
+            <div class="footer-imagotipo">
+                <span class="logo"></span><p class="isotipo"><span class="isotipo--st">Alura</span><span class="isotipo--nd">Geek</span></p>
+            </div>
+            <ul>
+                <li>Quienes somos</li>
+                <li>Política de privacidad</li>
+                <li>Programa de fidelidad</li>
+                <li>Nuestras tiendas</li>
+                <li>Quiero ser franquiciado</li>
+                <li>Anúncie aquí</li>
+            </ul>
+        </section>
+        <section class="formulario">
+            <form action="">
+                <p>Hable con nosotros</p>
+                <i class="formulario-input--title">Nombre</i>
+                <input type="text">
+                <i class="formulario-input--title2">Escribe su mensaje</i>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="header-button espaciado" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </footer>
+    <section class="devInfo">
+        <h3>Desarrollado por <a href="https://github.com/axlgoze"> Reyes Axel.</a></h3>
+        <p>2022</p>
+    </section>
+    
+
+    <script src="./js/cd.js"></script>
+    </body>
