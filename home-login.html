@@ -13,7 +13,7 @@
 <body>
     <section class="menu">
         <div class="menu-imagotipo">
-            <span class="logo"></span><p class="isotipo"><span class="isotipo--st">Alura</span><span class="isotipo--nd">Geek</span></p>
+            <span class="logo" onclick="cambioHome()"></span><p class="isotipo"><span class="isotipo--st">Alura</span><span class="isotipo--nd">Geek</span></p>
         </div>
         <div class="menu-searchContainer">
             <input type="text" class="menu-input--search" placeholder="¿Qué estas buscando?"><span class="search"></span>
@@ -22,11 +22,13 @@
 
     <header>
         <div class="login">
-            <input type="email" name="" id="">
-            <input type="password" name="" id="">
-            <button>Entrar</button>
+            <p>Inicia Sesión</p>
+            <input type="email" name="correo" id="correo" placeholder="ingresa tu correo">
+            <input type="password" name="contraseña" id="contraseña" placeholder="Ingresa tu contraseña">
+            <button class="header-button">Entrar</button>
         </div>
     </header>
+    
     <footer>
         <section class="contacto">
             <div class="footer-imagotipo">
@@ -56,5 +58,7 @@
         <h3>Desarrollado por <a href="https://github.com/axlgoze"> Reyes Axel.</a></h3>
         <p>2022</p>
     </section>
-        
+    
+
+    <script src="./js/cd.js"></script>
     </body>
