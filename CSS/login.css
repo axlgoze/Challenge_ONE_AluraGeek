@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-searchContainer{
+    align-items: center;,
+}
+.menu-input--search{
+    display: inline-block;
+}
+
+.search{
+    position: relative;
+    right: 25px;
+    top: 3px;
+}
