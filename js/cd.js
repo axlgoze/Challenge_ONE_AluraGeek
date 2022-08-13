@@ -11,3 +11,18 @@ function cambioHome(){
 function addProduct(){
     location.href="./agregaProducto.html"
 }
+
+function loginValidation(){
+    return true;
+}
+
+function logIn(){
+        if(loginValidation()){
+            location.href="./productos_admin.html"
+        }
+}
+
+function cambioAllproducts(){
+    location.href="./productos.html"
+    console.log("click")
+}

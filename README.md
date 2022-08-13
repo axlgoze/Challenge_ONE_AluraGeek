@@ -14,4 +14,4 @@ to do list
 
 backlog
 
-- create js functionalities for: sign in
+- create js functspoionalities for: sign in
