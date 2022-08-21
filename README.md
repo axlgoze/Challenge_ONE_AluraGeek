@@ -3,10 +3,10 @@
 [visit website](https://axlgoze.github.io/Challenge_ONE_AluraGeek/)
 
 Doing list
-- fixing all products min and max width
+ - fix productos desktop layout
 
 to do list
-
+- Create add product page
 - hide admin tools in all products page
 - create header image with canva: make it darker
 - make responsive images
@@ -17,8 +17,12 @@ backlog
 - create js functspoionalities for: sign in
 
 - DONE
+- fixing all products min and max width
 - Fixing product section min width 
 - products mobile layout (menu)
--mobile layout
-    - index
-    - login
+
+-mobile layout, tablet , desktop
+    - index ✔.✔.✔
+    - home-login ✔.✔.✔
+    - productos_admin ✔.✔.✔
+    - productos ✔.✔.❌
