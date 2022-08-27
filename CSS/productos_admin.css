@@ -111,19 +111,6 @@ section.seccion-uno {
 
 /* breakpoints */
 
-/* tablet-portrait: min:768px - max:1023px; */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    header, .seccion-allProducts{
-        min-width: 768px;
-        max-width: 1023px;
-        margin: 0 auto;
-    }
-
-    header{
-        padding-top: 32px;
-    }
-}
 
 /* mobile-portrait: min:360px - max:768px; */
 
@@ -205,3 +192,20 @@ section.seccion-uno {
     }
     
 }
+
+
+/* tablet-portrait: min:768px - max:1023px; */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header, footer, .menu, .devInfo, .seccion-uno, .seccion-dos, .seccion-tres, .footer-logo, .seccion-allProducts{
+        min-width: 768px;
+        max-width: 1023px;
+        margin: 0 auto;
+    }
+
+    header{
+        padding-top: 16px;
+    }
+    
+}
+
