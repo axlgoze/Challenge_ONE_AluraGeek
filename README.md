@@ -3,7 +3,7 @@
 [visit website](https://axlgoze.github.io/Challenge_ONE_AluraGeek/)
 
 Doing list
- - fix productos desktop layout
+
 
 to do list
 - Create add product page
@@ -20,9 +20,11 @@ backlog
 - fixing all products min and max width
 - Fixing product section min width 
 - products mobile layout (menu)
+ - fix productos tablet layout min 768px
 
--mobile layout, tablet , desktop
+
+- mobile, tablet and desktop layout
     - index ✔.✔.✔
     - home-login ✔.✔.✔
     - productos_admin ✔.✔.✔
-    - productos ✔.✔.❌
+    - productos ✔.✔.✔
