@@ -54,15 +54,14 @@ header{
 
 .seccion-allProducts{
     background-color: #e5e5e5;
+    max-width: 1023px;
+    margin: 0 auto;
 }
 
-section.seccion-https://www.youtube.com/watch?v=aEInVLr7KSUuno {
+section.seccion{
     margin-top: 0;
 }
 
-.seccion-productos--articulo {
-
-}
 
 .product-edit{
     display: flex;
@@ -111,7 +110,7 @@ section.seccion-https://www.youtube.com/watch?v=aEInVLr7KSUuno {
     content: none;
     visibility: hidden;
 }
-/* *************CONTINUE HERE ! */
+
 
 section.seccion-uno{
     margin-top: 0;
@@ -204,5 +203,17 @@ section.seccion-uno{
         max-width: 479px;
         margin: 0 auto;
     }
+    
+}
+
+/* tablet-portrait: min:768px - max:1023px; */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header, footer, .menu, .devInfo, .seccion-uno, .seccion-dos, .seccion-tres, .footer-logo, .seccion-allProducts{
+        min-width: 768px;
+        max-width: 1023px;
+        margin: 0 auto;
+    }
+
     
 }
