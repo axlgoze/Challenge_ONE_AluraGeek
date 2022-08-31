@@ -3,8 +3,7 @@
 [visit website](https://axlgoze.github.io/Challenge_ONE_AluraGeek/)
 
 Doing list
-- add products page desktop-mobile layout
-    - fix footer of desktop layout
+- fixing layouts calls, home-login rigth now
 
 to do list
 - Create add product page
