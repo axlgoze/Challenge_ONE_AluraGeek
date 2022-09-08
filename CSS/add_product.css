@@ -39,11 +39,23 @@ body{
 .menu-searchContainer{
     display: flex;
 }
-.menu-imagotipo{
+
+.menu-searchContainer{
     order: 2;
 }
-.search{
-    order: ;
+
+.menu-searchContainer--button__button{
+    width: 170px;
+    height: 43px;
+    background-color: transparent;
+    border: var(--color-primary) solid 1px;
+    color: var(--color-primary);
+}
+
+.menu-searchContainer--button__button:hover{
+    background-color: var(--color-primary);
+    border: none;
+    color: white;
 }
 
 /* desktop: min:1024px */
