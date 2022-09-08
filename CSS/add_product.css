@@ -316,4 +316,7 @@ body{
     .contacto ul li{
         text-align: left;
     }
+    .menu-imagotipo{
+        order: -1;
+    }
 }
