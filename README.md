@@ -3,7 +3,6 @@
 [visit website](https://axlgoze.github.io/Challenge_ONE_AluraGeek/)
 
 DOING LIST
-- styling addproduct page mobile layout
 
 BACKLOG
 - Create add product page
@@ -18,6 +17,7 @@ BACKLOG
 
 
 - DONE
+- styling addproduct page mobile layout
 - adding styles to administrator menu button
 - fix all products oversize of productos_admin in desktop layout
 - fixing all products min and max width
